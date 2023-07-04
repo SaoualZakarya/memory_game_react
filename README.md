@@ -1,4 +1,4 @@
-# The project is react card game
+## The project is react card game
 
 # Getting Started with Create React App
 
