@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,800&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400;700;900&display=swap');
+body {
+font-family: 'Cairo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.card .front{
+    transform: rotateY(90deg);
+    transition: all ease-in 0.3s;
+}
+.flipped .front{
+    transform: rotateY(0deg);
+    transition: 0.3s;
+}
+.card .cover{
+    transform: rotateY(0deg);
+    transition: all ease-in 0.3s;
+}
+.flipped .cover{
+    transform: rotateY(90deg);
+    transition: 0.3s;
+}
